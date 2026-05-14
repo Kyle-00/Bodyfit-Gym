@@ -33,8 +33,8 @@ BodyFit Gym is a Nairobi-based fitness center focused on helping individuals ach
 - **Membership Form** — A structured contact and membership enquiry form with client-side validation including:
   - Required field enforcement
   - Email format validation
-  - Kenyan phone number validation (`0XXXXXXXXX`) using regex
-  - Fitness goals textarea
+  - Kenyan phone number validation (`0712345678`)
+  - Fitness goals
   - Preferred training program selection
 - **Footer** — Social media links (Instagram, Facebook, Twitter) and copyright information.
 
@@ -65,7 +65,7 @@ bodyfit-gym/
 No build tools or dependencies are required. This is a plain HTML, CSS, and JavaScript project.
 
 1. **Clone or Download** the Repository
-git clone https://github.com/yourusername/bodyfit-gym.git
+git clone https://github.com/Kyle-00/bodyfit-gym.git
 2. Navigate Into the Project Folder
   `cd bodyfit-gym`
 3. Open the `index.html`
@@ -74,7 +74,7 @@ git clone https://github.com/yourusername/bodyfit-gym.git
 
 This project was built with accessibility best practices:
 
--Semantic HTML5 elements (<header>, <main>, <section>, <article>, <footer>)
+-Semantic HTML elements (<header>, <main>, <section>, <article>, <footer>)
 -ARIA labels on navigation and social media links
 -`alt` text for all images
 -Keyboard-accessible navigation
@@ -113,21 +113,22 @@ Accessibility features and SEO-friendly structure improve usability and online v
 
 Potential upgrades for future versions include:
 
-Online membership registration
-Integrated payment system
-Dark mode toggle
-Workout scheduling system
-Trainer booking feature
-Testimonials section
-Google Maps integration
-Fitness blog section
-Browser Compatibility
+* Online membership registration
+* Integrated payment system
+* Dark mode toggle
+* Workout scheduling system
+* Trainer booking feature
+* Testimonials section
+* Google Maps integration
+* Fitness blog section
+* Browser Compatibility
 
-Tested and optimized for:
+### Tested and optimized for:
 
-Google Chrome
-Mozilla Firefox
+Google Chrome,
+Mozilla Firefox,
 Safari
-License
+
+## License
 
 This project is for educational purposes only.

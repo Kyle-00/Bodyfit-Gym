@@ -1,0 +1,218 @@
+
+ /* Types of Selectors*
+ /*UNIVERSAL SELECTOR*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*ELEMENT SELECTORS*/
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: orangered;
+    padding: 20px;
+}
+
+nav {
+    color: white;
+    
+}
+
+h1 {
+    color: orangered;
+    font-style: italic;
+    text-decoration: none;
+}
+
+h2 {
+    color: orangered;
+    text-align: center;
+    font-style: bold;
+    text-decoration: underline;
+}
+
+h3 {
+    color: orangered;
+    font-style: italic;
+}
+
+p {
+    color: white;
+    font-style: normal;
+}
+
+img {
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+}
+
+button {
+    padding: 8px;
+    background-color: white;
+    color: black;
+    margin: 4px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* CLASS SELECTORS */
+
+/* Logo */
+.logo {
+    font: Bold Italic 2rem "Arial Black", Gadget, sans-serif;
+    font-weight: bold;
+    color: Black;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+/* Hero Section */
+.hero-content {
+    width: 90%;
+}
+
+/* Button Class */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color:orangered;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Services */
+.services {
+    background-color: black;
+}
+
+
+.service-card {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+}
+
+/* Contact Section */
+.form-group {
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-links {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    margin: 10px;
+}
+
+/*ID SELECTOR */
+#home {
+    border-bottom: 2px solid orangered;
+}
+
+#services {
+    border-bottom: 2px solid orangered;
+}
+
+#about {
+    border-bottom: 2px solid orangered;
+}
+
+#contact {
+    border-bottom: 2px solid orangered;
+}
+
+/*ATTRIBUTE SELECTOR*/
+a[href] {
+    color: white;
+}
+
+/*DESCENDANT SELECTOR */
+.hero-content p {
+    font-style: italic;
+}
+.footer p {
+    color: orangered;
+}
+
+/*ADJACENT SIBLING SELECTOR */
+h2 + p {
+    margin-top: 10px;
+}
+
+/*GROUP SELECTOR*/
+h1,
+h2,
+h3 {
+    font-family: Cambria, Cochin, Georgia,
+    Times, "Times New Roman", serif;
+}
+
+/*INTERACTIVE STATES*/
+.btn:hover {
+    background-color:darkgray;
+    color: white;
+}
+
+button:active {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+/*PSEUDO ELEMENTS*/
+a::before {
+    content: "";
+}
+
+p::after {
+    content: "";
+}
+
+/*RESPONSIVE DESIGN */
+
+    .nav-links {
+        text-align: center;
+    }
