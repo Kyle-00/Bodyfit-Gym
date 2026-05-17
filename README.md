@@ -46,11 +46,10 @@ BodyFit Gym is a Nairobi-based fitness center focused on helping individuals ach
 bodyfit-gym/
 │   index.html
 │   style.css
-│   script.js
 │   LICENSE
 │   README.md
 │
-└───assets
+└───assests
     ├───images
     │    brett-jordan-U2q73PfHFpM-unsplash.jpg  
     │    samuel-girven-fqMu99l8sqo-unsplash.jpg   
@@ -62,7 +61,7 @@ bodyfit-gym/
 
 ## Getting Started
 
-No build tools or dependencies are required. This is a plain HTML, CSS, and JavaScript project.
+No build tools or dependencies are required. This is a plain HTML and CSS project.
 
 1. **Clone or Download** the Repository
 git clone https://github.com/Kyle-00/bodyfit-gym.git
